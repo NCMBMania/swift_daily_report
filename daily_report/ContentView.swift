@@ -6,11 +6,26 @@
 //
 
 import SwiftUI
+import NCMB
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            InputView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "pencil")
+                        Text("入力")
+                    }
+            }.tag(1)
+            ReportView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "list.bullet")
+                        Text("レポート")
+                    }
+            }.tag(2)
+        }
     }
 }
 

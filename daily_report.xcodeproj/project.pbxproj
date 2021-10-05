@@ -14,6 +14,12 @@
 		C71B7054270B019400AE39D9 /* daily_reportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B7053270B019400AE39D9 /* daily_reportTests.swift */; };
 		C71B705E270B019400AE39D9 /* daily_reportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B705D270B019400AE39D9 /* daily_reportUITests.swift */; };
 		C71B7060270B019400AE39D9 /* daily_reportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71B705F270B019400AE39D9 /* daily_reportUITestsLaunchTests.swift */; };
+		C71B706E270B027500AE39D9 /* NCMB in Frameworks */ = {isa = PBXBuildFile; productRef = C71B706D270B027500AE39D9 /* NCMB */; };
+		C77FD8B7270C2871007E089A /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77FD8B6270C2871007E089A /* ImagePicker.swift */; };
+		C77FD8B9270C4D2C007E089A /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77FD8B8270C4D2C007E089A /* InputView.swift */; };
+		C77FD8BD270C4D75007E089A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77FD8BC270C4D75007E089A /* DetailView.swift */; };
+		C77FD8BF270C4D96007E089A /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77FD8BE270C4D96007E089A /* ReportView.swift */; };
+		C77FD8C1270C596B007E089A /* ReportRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77FD8C0270C596B007E089A /* ReportRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,11 @@
 		C71B7059270B019400AE39D9 /* daily_reportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = daily_reportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71B705D270B019400AE39D9 /* daily_reportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_reportUITests.swift; sourceTree = "<group>"; };
 		C71B705F270B019400AE39D9 /* daily_reportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = daily_reportUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C77FD8B6270C2871007E089A /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		C77FD8B8270C4D2C007E089A /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		C77FD8BC270C4D75007E089A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		C77FD8BE270C4D96007E089A /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		C77FD8C0270C596B007E089A /* ReportRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71B706E270B027500AE39D9 /* NCMB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +110,11 @@
 				C71B7044270B019200AE39D9 /* ContentView.swift */,
 				C71B7046270B019300AE39D9 /* Assets.xcassets */,
 				C71B7048270B019300AE39D9 /* Preview Content */,
+				C77FD8B6270C2871007E089A /* ImagePicker.swift */,
+				C77FD8B8270C4D2C007E089A /* InputView.swift */,
+				C77FD8BC270C4D75007E089A /* DetailView.swift */,
+				C77FD8BE270C4D96007E089A /* ReportView.swift */,
+				C77FD8C0270C596B007E089A /* ReportRowView.swift */,
 			);
 			path = daily_report;
 			sourceTree = "<group>";
@@ -143,6 +160,9 @@
 			dependencies = (
 			);
 			name = daily_report;
+			packageProductDependencies = (
+				C71B706D270B027500AE39D9 /* NCMB */,
+			);
 			productName = daily_report;
 			productReference = C71B703F270B019200AE39D9 /* daily_report.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +235,9 @@
 				Base,
 			);
 			mainGroup = C71B7036270B019200AE39D9;
+			packageReferences = (
+				C71B706C270B027500AE39D9 /* XCRemoteSwiftPackageReference "ncmb_swift" */,
+			);
 			productRefGroup = C71B7040270B019200AE39D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77FD8B7270C2871007E089A /* ImagePicker.swift in Sources */,
+				C77FD8C1270C596B007E089A /* ReportRowView.swift in Sources */,
+				C77FD8BD270C4D75007E089A /* DetailView.swift in Sources */,
+				C77FD8B9270C4D2C007E089A /* InputView.swift in Sources */,
 				C71B7045270B019200AE39D9 /* ContentView.swift in Sources */,
+				C77FD8BF270C4D96007E089A /* ReportView.swift in Sources */,
 				C71B7043270B019200AE39D9 /* daily_reportApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +450,8 @@
 				DEVELOPMENT_TEAM = YX944FB478;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NCMBへアップロードする写真を選択します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "NCMBへアップロードする写真を選択します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +482,8 @@
 				DEVELOPMENT_TEAM = YX944FB478;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "NCMBへアップロードする写真を選択します";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "NCMBへアップロードする写真を選択します";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -607,6 +639,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C71B706C270B027500AE39D9 /* XCRemoteSwiftPackageReference "ncmb_swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NIFCLOUD-mbaas/ncmb_swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C71B706D270B027500AE39D9 /* NCMB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C71B706C270B027500AE39D9 /* XCRemoteSwiftPackageReference "ncmb_swift" */;
+			productName = NCMB;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C71B7037270B019200AE39D9 /* Project object */;
 }

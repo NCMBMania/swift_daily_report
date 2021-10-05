@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "NCMB",
+        "repositoryURL": "https://github.com/NIFCLOUD-mbaas/ncmb_swift",
+        "state": {
+          "branch": null,
+          "revision": "a58f9b78d5271b1909c88a700c0bf232bff8afce",
+          "version": "1.2.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
